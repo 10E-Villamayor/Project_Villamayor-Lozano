@@ -1,0 +1,123 @@
+body {
+    background-color: rgb(165, 127, 70);
+    color: beige;
+}
+
+.container-navbar {
+            position: relative;
+            background-color: beige;
+            color: rgb(165, 127, 70);
+            padding: 10px 10px;
+            font-size: 16px;
+            border: none;
+            text-align: right;
+            overflow: hidden;
+            box-shadow: 10px 10px 43px -9px rgba(0,0,0,0.75);;
+        }
+
+.container-navbar a {
+        float: right;
+        display: block;
+        background-color: beige;
+        color: rgb(98, 73, 43);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        margin-left: 10px;
+        box-shadow: -1px -2px 41px -14px rgba(0,0,0,0.75);
+        border-radius: 10px;
+        }
+
+.container-navbar a:hover {
+        background-color: rgb(105, 71, 49);
+        color: beige;
+        border-radius: 10px;
+        }
+
+.container-navbar a.active {
+        background-color: #A7C6DA;
+        color: rgb(18, 14, 14);
+        }
+
+        .container1 {
+            width: 80%;
+            max-width: 700px;
+            margin: 40px auto;
+            background-color: beige;
+            padding: 25px;
+            border-radius: 12px;
+            color: rgb(136, 73, 25);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        #output {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: white;
+            color: black;
+            border-radius: 8px;
+            min-height: 50px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .btt {
+            background-color: gold;
+            border-radius: 5px;
+            border-color: gold;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            padding: 5px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+
+        }
+
+        h1 {
+            font-family: monospace;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border-radius: 6px;
+            border: 1px solid #a09f9f;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        .tracker-card { 
+            background-color: rgb(248, 248, 227);
+            border-radius: 20px; 
+        }
+        .graph-card { 
+            border-radius: 0; 
+            background-color: rgb(248, 248, 227); 
+            padding: 20px; 
+        }
+        .btn-button {
+        background-color: #665141;
+        color: white;
+        }
+
+        h2 {
+            text-align: center;
+            background-color: rgb(248, 248, 227);
+            box-shadow: 10px 10px 21px -13px rgba(0,0,0,0.75);
+            padding: 2px;
+            
+        }
+
+       footer {
+             text-align: center;
+             padding: 3px;
+             color: rgb(15, 15, 15);
+             font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+             background-color: beige;
+        }

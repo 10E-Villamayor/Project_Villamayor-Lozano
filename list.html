@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.11.1/core.css">
+    <script type="module" src="https://pyscript.net/releases/2024.11.1/core.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">	
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  	<link rel="stylesheet" href="style.css">
+    <title>10 Emerald Website</title>
+
+</head>
+<body>
+
+    <div class="container-navbar">
+      <navbar class="navbar-investigate">
+        <a href="list.html">Classmate List</a>
+        <a href="tracker.html">Attendance Tracker</a>
+        <a href="photo.html">Class Activities</a>
+        </navbar>
+            </div>
+    <br>
+
+<div class="container1">
+    <div class="intro"></div>
+    <h1>Classmates Introductions</h1>
+
+    <div id="output"></div>
+
+    <h2>Add a New Classmate</h2>
+
+    <label>Name:</label>
+    <input type="text" id="name">
+
+    <label>Level and Section:</label>
+    <input type="text" id="section">
+
+    <label>Favorite Subject:</label>
+    <input type="text" id="favorite_subject">
+
+    <button class="btt" py-click="add_classmate">Add Classmate</button>
+    <py-script src="LIST.py"></py-script>
+</div>
+
+  <br>
+    <footer>
+        <p>Erich Villamayor &  Julia Lozano | 10 - Emerald</p>
+    </footer>
+
+</body>
+</html>
